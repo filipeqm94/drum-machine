@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  padding: 5px;
+
+  width: 330px;
+
+  text-align: center;
+
+  background-color: white;
+}

@@ -1,0 +1,23 @@
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 5px;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: #121232;
+  color: white;
+
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+
+  cursor: pointer;
+}
+
+.boxes.active {
+  box-shadow: none;
+  opacity: 0.8;
+}
