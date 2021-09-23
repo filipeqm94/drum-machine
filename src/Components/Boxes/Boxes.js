@@ -12,7 +12,15 @@ export default class Boxes extends React.Component {
   }
 
   handleClick() {
-    this.audio.current.play();
+    const audio = this.audio.current;
+    const parent = this.audio.current.parentNode;
+
+    audio.play();
+    parent.classList.add("active");
+
+    audio.addEventListener("ended", () => {
+      parent.classList.remove("active");
+    });
   }
 
   render() {

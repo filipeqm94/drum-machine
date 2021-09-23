@@ -3,5 +3,13 @@
   align-items: center;
   justify-content: center;
 
+  flex-direction: column;
+
   height: 100vh;
+}
+
+h1 {
+  margin-bottom: 50px;
+
+  color: white;
 }

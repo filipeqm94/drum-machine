@@ -37,6 +37,7 @@ class App extends React.Component {
     const { notes } = this.state;
     return (
       <div className='wrapper'>
+        <h1>Drum Machine</h1>
         <Box notes={notes} />
       </div>
     );

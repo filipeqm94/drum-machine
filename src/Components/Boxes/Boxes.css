@@ -1,14 +1,16 @@
 .boxes {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
   margin: 5px;
+
+  padding-top: 50px;
 
   width: 100px;
   height: 100px;
 
-  background-color: #121232;
+  background-color: #8e44ad;
   color: white;
 
   border-radius: 5px;
